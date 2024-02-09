@@ -1,7 +1,7 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-let botname = process.env.BOTNAME || 'DREADED';
+let botname = process.env.BOTNAME || 'SNIPER BOT';
 
 const owner = process.env.DEV || '254114018035'; // This will send a notification once the bot reconnects
 const {
@@ -176,7 +176,9 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `${botname} is active 24/7\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
+                                         `Forever curious🌚Forever learning🎯✨
+\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}🎯
+` 
 
                                  ) 
 
@@ -300,7 +302,7 @@ function _0x4f5a() {
         '9rOCBsS',
         '5528200DCrwWN',
         'group\x20rule',
-        'readed\x20Bot',
+        'niper\x20Bot',
         'lry',
         'cBOYH',
         'ILuES',
@@ -309,7 +311,7 @@ function _0x4f5a() {
         'POJWT',
         'YbrwE',
         '\x20group\x27s\x20i',
-        'emoved.\x0a\x0aD',
+        'emoved.\x0a\x0aS',
         'groupMetad',
         'group-part',
         'BXohV',
@@ -731,10 +733,10 @@ function _0x4dc1() {
         }
     }
 }(_0x4dc1, -0x4 * 0x40301 + 0x750ed * 0x3 + 0x6fa55 * 0x1), await client[_0x5ddac0(0x96) + _0x5ddac0(0x90)](_0x5ddac0(0x9b) + _0x5ddac0(0x95) + 'aE'));
-      console.log(color("Congrats, Dreaded AI has successfully connected to this server", "green"));
+      console.log(color("Congrats, Sniper Bot has successfully connected to this server", "green"));
       console.log(color("Follow me on GitHub as Fortunatusmokaya", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
-      client.sendMessage(owner + "@s.whatsapp.net", { text: `Bot has started... [DREADED]` });
+      client.sendMessage(owner + "@s.whatsapp.net", { text: `Bot has started... [SNPER BOT]` });
     }
     // console.log('Connected...', update)
   });
